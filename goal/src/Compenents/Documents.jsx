@@ -8,10 +8,10 @@ const  Food = () =>
 
         return(
            <>
-           <Card  /> 
+           <Card name = "Hommes" /> 
            <Card name = "Oussama" photo={image_1} />
            <Card name = "Sponjbob" photo={imgreact} />
-           <Card name = "Ahmed Redouane" />
+           <Card name = "Ahmed Redouane"/>
            </>
         )
     } 
