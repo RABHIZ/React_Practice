@@ -7,10 +7,17 @@
     padding: 10px;
     text-align: center;
     margin: 10px;
+    position: absolute;
     display: inline-block;
 }
-.IB {
-  display: inline-block;
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+card-container {
+  position: relative;
 }
 
 .card .card-img{
