@@ -8,8 +8,8 @@ const Card =({name="Guest", photo = imgreact}) => {
         setIsFlipped(!isFlipped);
     }
     return(
-        
-        <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
+        <div className="IB">
+        <ReactCardFlip flipDirection="vertical" isFlipped={isFlipped}>
         <div className='card' onClick={flipcard}>
             <img className='card-img placeholder' src={photo} alt="There is no image" />
         </div>
@@ -18,6 +18,7 @@ const Card =({name="Guest", photo = imgreact}) => {
             <p className='card-text'>I am computer science engineer, work on directional</p>
         </div>
         </ReactCardFlip>
+        </div>
     )
 };
 
